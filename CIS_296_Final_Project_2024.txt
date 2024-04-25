@@ -1,0 +1,51 @@
+-Data Validation
+-Custom Routes
+-Model Binding
+-Data Assurance
+-Keeps track of persistent data
+-Some way to save data to local machines and upload it back to the site
+	-This could also just be saving a form or template that can allow users to fill in a template to submit data to a database
+-Razor views/layouts
+-Deviates from the standard template
+	-Custom UI
+-Database of something
+-View Model
+-Login System
+-Role restrictions
+-Areas
+
+Final Project
+
+	Each competency will be graded on the following scale:
+		- 0 (Competency not present/Not Demonstrated)
+		- 1 (Competency present, demonstrated correct approach but does not work)
+		- 2 (Competency present, works with some issues)
+		- 3 (Competency present, works without issues)
+
+
+Requirements
+
+
+Competencies
+
+	Login System/Role Restrictions
+		_/3 : Create a login system and restrict portions of the application to only those who need access to them.
+
+	Database
+		_/3 : Create a database of something that will be tied to the application, and allow authorized users to add/edit data.
+
+	Clean UI
+		_/3 : Utilize bootstrap and custom CSS to create a UI unique to the site. This UI should be different from the default UI.
+
+	Unit of Work Pattern
+		_/3 : Utilize the Unit of Work pattern from Chapter 12 (interfaces, repositories). This means that queries should be built in the repositories, and controllers should utilize query options classes to set settings for the search. 
+
+	Custom Filtering
+		_/3 : The data should include at least two ways to filter/sort it. For example, filter by name and sort by date.
+		
+
+Competencies Total : __/15
+
+Percentage of requirements met: __/100%
+
+Total score: (__*__%)/15

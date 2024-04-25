@@ -3866,11 +3866,11 @@ textarea.form-control-lg {
 }
 
 .nav {
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
 }
 
 .nav-link {
@@ -3962,13 +3962,13 @@ textarea.form-control-lg {
 }
 
 .navbar {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -7784,8 +7784,8 @@ textarea.form-control-lg {
 }
 
 .bg-white {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+    --bs-bg-opacity: 1;
+    background-color: rgb(79, 45, 29);
 }
 
 .bg-body {

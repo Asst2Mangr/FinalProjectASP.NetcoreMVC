@@ -1,7 +1,17 @@
 html {
   font-size: 14px;
 }
-
+body {
+    background-color: rgb(247, 244, 37);
+    margin-bottom: 60px;
+}
+footer {
+    background-color: rgb(117, 58, 30);
+    color: white;
+}
+header {
+    background-color: rgb(117, 58, 30);
+}
 @media (min-width: 768px) {
   html {
     font-size: 16px;
@@ -15,8 +25,4 @@ html {
 html {
   position: relative;
   min-height: 100%;
-}
-
-body {
-  margin-bottom: 60px;
 }

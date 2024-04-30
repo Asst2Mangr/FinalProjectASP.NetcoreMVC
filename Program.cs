@@ -17,5 +17,6 @@ namespace Episode
                     webBuilder.UseStartup<Startup>()
                     .UseDefaultServiceProvider(options => options.ValidateScopes = false);
                 });
+
     }
 }

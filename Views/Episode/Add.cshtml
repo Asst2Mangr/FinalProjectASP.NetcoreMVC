@@ -1,0 +1,30 @@
+﻿@model Episode
+@{
+    //ViewData["Title"] = $"{ViewBag.Operation} Episode";
+    int id = Convert.ToInt32(ViewContext.RouteData.Values["Season"]);
+}
+
+<h1 class="display-4">@ViewBag.Operation Episode</h1>
+
+<form asp-action="Add" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Season"></label>
+        <input asp-for="Season" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <input asp-for="Description" class="form-control"/>
+       
+    </div>
+    <!--<input asp-for="EpisodeId" class="form-control" type=hidden />  keeps inserting "
+    -->
+   
+
+    <button type="submit" class="btn btn-dark">Accept</button>
+    <a asp-action="Index" asp-controller="Home" class="btn btn-outline-dark">Cancel</a>
+</form>

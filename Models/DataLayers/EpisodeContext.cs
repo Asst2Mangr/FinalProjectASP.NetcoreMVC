@@ -12,10 +12,11 @@ namespace FinalProjectASP.NetcoreMVC.Models
         { }
 
         public DbSet<Episode> Episodes { get; set; }
-
+    
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder.ApplyConfiguration(new EpisodeConfig()));
+           
+           base.OnModelCreating(modelBuilder.ApplyConfiguration(new EpisodeConfig()));
         }
 
         public static async Task CreateAdminUser(IServiceProvider serviceProvider)

@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
+using System.Linq.Expressions;
 
 namespace FinalProjectASP.NetcoreMVC.Models
 {
@@ -8,12 +10,13 @@ namespace FinalProjectASP.NetcoreMVC.Models
         [StringLength(200, ErrorMessage = "Title may not exceed 200 characters.")]
         [Required(ErrorMessage = "Please enter a title.")]
         public string Title { get; set; }
-        [StringLength(14, ErrorMessage = "Season may not exceed 14.")]
-        [Required(ErrorMessage = "Please enter a season.")]
+        
+      
         public int Season { get; set; }
         [StringLength(500, ErrorMessage = "Title may not exceed 500 characters.")]
         [Required(ErrorMessage = "Please enter a Description.")]
         public string Description { get; set; }
+       
 
 
     } 

@@ -24,7 +24,7 @@ namespace Episode
             services.AddControllersWithViews();
 
             services.AddDbContext<EpisodeContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("BookstoreContext")));
+                options.UseSqlServer(Configuration.GetConnectionString("EpisodeContext")));
 
             // add this
             services.AddIdentity<User, IdentityRole>(options => {

@@ -15,7 +15,7 @@ namespace FinalProjectASP.NetcoreMVC.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfiguration(new EpisodeConfig());
+            base.OnModelCreating(modelBuilder.ApplyConfiguration(new EpisodeConfig()));
         }
 
         public static async Task CreateAdminUser(IServiceProvider serviceProvider)

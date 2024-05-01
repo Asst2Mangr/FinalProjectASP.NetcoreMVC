@@ -57,7 +57,7 @@ namespace Episode
                 endpoints.MapAreaControllerRoute(
                     name: "admin",
                     areaName: "Admin",
-                    pattern: "Admin/{controller=Book}/{action=Index}/{id?}");
+                    pattern: "Admin/{controller=Episode}/{action=Index}/{id?}");
 
                 // default route
                 endpoints.MapControllerRoute(
